@@ -20,22 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Lachlan McIntyre",
+  title: "Hi all, I'm Lachlan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "An Aspiring Full Stack Developer 🚀 with experience in JavaScript, React, Node.js, and QA Engineering. Passionate about building real world solutions and delivering smooth, reliable user experiences across web and mobile enviroments."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1MVU9duEa2y2qBb-5CVG9xmVoa2VhT5r4IxODtCqnloY/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/Lachyzzz1",
+  linkedin: "https://www.linkedin.com/in/lachlan-mcintyre-72430a230/",
+  gmail: "lachlan.mcintyre24@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
@@ -49,15 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "ASPIRING FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Build and test reliable web applications using Java, JavaScript, HTML/CSS, and SQL"),
+    emoji("⚡ Develop front-end features and responsive UIs using React and modern web tech"),
+    emoji("⚡ Write and execute test plans, identify bugs early, and ensure cross-browser compatibility"),
+    emoji("⚡ Build database-driven applications and work with both relational and NoSQL data models"),
+    emoji("⚡ Configure and troubleshoot networks and Linux systems for secure environments"),
+    emoji("⚡ Collaborate using Git, version control, automated testing, and CI/CD pipelines")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,56 +64,60 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node-js"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-code" // generic icon
+    },
+    {
+      skillName: "C#",
+      fontAwesomeClassname: "fas fa-code" // generic icon
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java" // If not supported, use 'fas fa-code'
+    },
+    {
+      skillName: "SQL / Databases",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Networking",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
+      skillName: "Git / Version Control",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Quality Assurance",
+      fontAwesomeClassname: "fas fa-vial"
+    },
+    {
+      skillName: "Bug Tracking",
+      fontAwesomeClassname: "fas fa-bug"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -324,7 +327,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -383,7 +386,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
